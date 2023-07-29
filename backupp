@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AMC | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html" style="background-color: aquamarine; color: black;">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">AMC</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">GADGETS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">MACBOOK PRO</span>
+                    <img class="shop-item-image" src="./macbook.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹89000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">IPhone 14</span>
+                    <img class="shop-item-image" src="./iphone.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹79999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">APPLE AIRPODS PRO</span>
+                    <img class="shop-item-image" src="./airpods.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹9999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">JBL SPEAKERS</span>
+                    <img class="shop-item-image" src="./spea.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹9990</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">SNEAKERS</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Nike RETRO HIGH</span>
+                    <img class="shop-item-image" src="./retro.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹8999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">YEEZY BLACK</span>
+                    <img class="shop-item-image" src="./yeezy.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">₹17999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="./airpods.png" width="100" height="100">
+                        <span class="cart-item-title">Apple airpods PRO</span>
+                    </div>
+                    <span class="cart-price cart-column">₹9999</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="./yeezy.png" width="100" height="100">
+                        <span class="cart-item-title">Yeezy 450 Dark Slate</span>
+                    </div>
+                    <span class="cart-price cart-column">₹19999</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price"></span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name"  style="color: black; margin-left: 43%;">AMC</h3>
+            </div>
+        </footer>
+    </body>
+</html>
